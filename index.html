@@ -1,29 +1,72 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
   <meta charset="UTF-8">
-  <title>我的網站</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>遊戲操作說明</title>
   <style>
-    body { font-family: sans-serif; background-color: #f5f5f5; text-align: center; padding: 2em; }
+    body {
+      font-family: "Microsoft JhengHei", "Helvetica", sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 2em;
+      line-height: 1.8;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 1em;
+      color: #2c3e50;
+    }
+
+    h2 {
+      color: #34495e;
+      font-size: 24px;
+      margin-top: 1.5em;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 2em;
+    }
+
+    .section {
+      max-width: 800px;
+      margin: auto;
+      background: #ffffff;
+      padding: 2em;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
   </style>
 </head>
 <body>
-  <h1>歡迎來到教學網站！</h1>
-  <p>【操作方式】
-搖桿：移動角色  
-確認鍵：射擊 / 確認選擇
-射擊時會出現移動指標，
-抓準時機按下確認鍵，即可發射。
-系統會自動鎖定最近的敵人。
-黑洞：敵人和Core碰觸到黑洞都會死，並且雙方的攻擊都會被黑洞所吸收  
-增益道具：
-- 記憶模組（提升射速）
-- 冷卻器（減少冷卻時間）
-- 系統補丁（恢復生命）
-善用這些元素，活下去！
+  <div class="section">
+    <h1>遊戲操作說明</h1>
 
+    <h2>【操作方式】</h2>
+    <ul>
+      <li><strong>搖桿：</strong> 移動角色</li>
+      <li><strong>確認鍵：</strong> 射擊 / 確認選擇</li>
+      <li>射擊時會出現移動指標，抓準時機按下確認鍵，即可發射。</li>
+      <li>系統會自動鎖定最近的敵人。</li>
+    </ul>
 
-</p>
+    <h2>【地圖元素】</h2>
+    <p><strong>資料裂縫（黑洞）：</strong><br>
+      角色不能觸碰到裂縫，否則會死亡。將敵人打入裂縫即可消滅敵人。另外子彈經過裂縫皆會被吸收。
+    </p>
+
+    <p><strong>增益道具：</strong></p>
+    <ul>
+      <li><strong>記憶模組：</strong> 降低敵人的射速</li>
+      <li><strong>冷卻器：</strong> 減少冷卻時間</li>
+      <li><strong>系統補丁：</strong> 恢復生命</li>
+    </ul>
+
+    <p>善用這些元素，活下去！</p>
+  </div>
 </body>
 </html>
